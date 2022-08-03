@@ -1,0 +1,15 @@
+{
+    "include": ["src/**/*"],
+    "compilerOptions": {
+        "target": "esnext",
+        "types": ["vite/client"],
+        "module": "esnext",
+        "strict": true,
+        "jsx": "react-jsx",
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "noEmit": true
+    }
+}
