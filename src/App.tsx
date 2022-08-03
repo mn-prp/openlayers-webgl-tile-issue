@@ -54,12 +54,20 @@ export default function App() {
 
     return (
         <div className="App">
-            <h1>Hello CodeSandbox</h1>
+            <h1>Reproduction</h1>
             <div
                 ref={mapContainer}
                 style={{ height: "400px", width: "400px" }}
             />
-            <h2>Start editing to see some magic happen!</h2>
+            <h3>
+                Move the map around, and (if Mock Service Worker is working),
+                you should see gray lines appear, like this (they will repeat
+                periodically). On iOS, however, you should not see anything when
+                moving it around.
+                <div>
+                    <img src="/correct-screenshot.png" alt="" />
+                </div>
+            </h3>
         </div>
     );
 }
